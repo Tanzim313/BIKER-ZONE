@@ -21,7 +21,7 @@
    <div class="bg-[#264653] text-white p-5 gap-x-10">
      <div class="flex gap-x-8 justify-end">
         <div>
-        <ul class="list-none flex gap-x-4 justify-end text-xl font-bold">
+        <ul class="list-none flex flex-col md:flex-row gap-x-4 justify-end text-xl font-bold ">
             <li><a href="">Home</a></li>
             <li><a href="">Shop</a></li>
             <li><a href="">News</a></li>
@@ -33,7 +33,7 @@
 
     </div>
 
-    <div class="flex justify-around mt-20">
+    <div class="flex justify-around items-center mt-20 md:flex-row flex-col gap-y-15 md:gap-y-0">
         <div>
         <p class="mb-2 text-sm text-[#E0E0E0]">Computer-controlled digital transistorized with electronic advance</p>
         <h1 class="text-3xl font-bold mb-5 ">Honda CBR 300R</h1>
@@ -43,7 +43,7 @@
     </div>
 
     <div>
-        <img class="min-w-[300px]" src="./images/slider/honda-cbr-300r-2-removebg-preview 1.png" alt="">
+        <img class="min-w-[295px] p-5 sm:p-0" src="./images/slider/honda-cbr-300r-2-removebg-preview 1.png" alt="">
     </div>
     </div>
     
@@ -51,18 +51,79 @@
 
 
 
-   <div class="flex flex-col gap-y-12 justify-center items-center mt-10 p-4">
+   <div class="feature-bike flex flex-col gap-y-12 justify-center items-center mt-10 p-4">
     <div class="space-y-3">
     <h1 class="text-4xl font-semibold">Fetured Bikes In This Year</h1>
     <p class="text-sm text-center text-[#E76F51] font-bold">Best bike collection</p>
    </div>
 
-   <div class="flex ">
+   <div class="flex md:flex-row flex-col">
     <img class="min-w-[200px] min-h-[200px]" src="./images/slider/bike4.png" alt="">
     <img class="min-w-[200px] min-h-[200px]" src="./images/slider/bike1.png" alt="">
     <img class="min-w-[200px] min-h-[200px]" src="./images/slider/bike2.png" alt="">
    </div>
    </div>
+
+
+   <!--card section-->
+
+   <div class="p-10 gap-5 md:p-0 md:gap-0 grid grid-cols-1 md:grid-cols-3 place-items-center">
+    
+    <div class="card p-12 md:p-5 w-60% md:max-w-[300px] shadow-sm flex flex-col  ">
+  <figure>
+    <img
+      class=" w-full md:max-w-[300px] "
+      src="./images/others/latest1.png"
+      alt="Shoes" />
+  </figure>
+  <div class="card-body">
+    <h2 class="card-title text-2xl md:text-xl">Ducati XDIAVEL S-73</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+    <div class="card-actions justify-start">
+      <button class="btn mt-4 bg-[#E76F51] text-white font-semibold">Read More</button>
+    </div>
+  </div>
+</div>
+
+<div class="card p-12 md:p-5 w-60% md:max-w-[300px] shadow-sm flex flex-col  ">
+  <figure>
+    <img
+      class=" w-full md:max-w-[300px] "
+      src="./images/others/latest1.png"
+      alt="Shoes" />
+  </figure>
+  <div class="card-body">
+    <h2 class="card-title text-2xl md:text-xl">Ducati XDIAVEL S-73</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+    <div class="card-actions justify-start">
+      <button class="btn mt-4 bg-[#E76F51] text-white font-semibold">Read More</button>
+    </div>
+  </div>
+</div>
+
+<div class="card p-12 md:p-5 w-60% md:max-w-[300px] shadow-sm flex flex-col  ">
+  <figure>
+    <img
+      class=" w-full md:max-w-[300px] "
+      src="./images/others/latest1.png"
+      alt="Shoes" />
+  </figure>
+  <div class="card-body">
+    <h2 class="card-title text-2xl md:text-xl">Ducati XDIAVEL S-73</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+    <div class="card-actions justify-start">
+      <button class="btn mt-4 bg-[#E76F51] text-white font-semibold">Read More</button>
+    </div>
+  </div>
+</div>
+
+   </div>
+
+
+   <!--end card section-->
+
+
+   
 
 </body>
 </html>
