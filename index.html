@@ -18,15 +18,40 @@
 </head>
 <body class="p-5">
 
-   <div class="bg-[#264653] text-white p-5 gap-x-10">
+   <div class="bg-[#264653] text-black p-5 gap-x-10">
      <div class="flex gap-x-8 justify-end">
         <div>
-        <ul class="list-none flex flex-col md:flex-row gap-x-4 justify-end text-xl font-bold ">
+
+          <div class="navbar-start">
+    <div class="dropdown">
+      <div tabindex="0" role="button" class="md:hidden  btn btn-ghost btn-circle">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /> </svg>
+      </div>
+      <ul
+        tabindex="0"
+        class="md:hidden flex gap-x-4 justify-end text-xl font-bold  menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow md:w-auto md:mt-0">
+             <li><a href="">Home</a></li>
+            <li><a href="">Shop</a></li>
+            <li><a href="">News</a></li>
+            <li><a href="">Contact</a></li>
+      </ul>
+
+      <ul class="hidden md:flex md:flex-row gap-x-4 justify-end text-xl font-bold ">
             <li><a href="">Home</a></li>
             <li><a href="">Shop</a></li>
             <li><a href="">News</a></li>
             <li><a href="">Contact</a></li>
         </ul>
+
+
+    </div>
+  </div>
+        <!--<ul class="flex md:flex-row gap-x-4 justify-end text-xl font-bold ">
+            <li><a href="">Home</a></li>
+            <li><a href="">Shop</a></li>
+            <li><a href="">News</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>-->
     </div>
 
     <button class="btn bg-[#E76F51] text-white font-semibold">Default</button>
